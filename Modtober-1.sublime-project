@@ -1,0 +1,132 @@
+{
+	"build_systems":
+	[
+		{
+			"file_regex": "(.+[^:]):(\\d+):(\\d+): (?:fatal )?((?:error|warning): .+)$",
+			"name": "Modtober-1 (OSX)",
+			"shell_cmd": "make -j4",
+			"syntax": "Packages/CMakeBuilder/Syntax/Make.sublime-syntax",
+			"variants":
+			[
+				{
+					"name": "clean",
+					"shell_cmd": "make -j4 clean",
+				},
+				{
+					"name": "rebuild_cache",
+					"shell_cmd": "make -j4 rebuild_cache",
+				},
+				{
+					"name": "CodegenRun",
+					"shell_cmd": "make -j4 CodegenRun",
+				},
+				{
+					"name": "Modtober-1_PACKAGE",
+					"shell_cmd": "make -j4 Modtober-1_PACKAGE",
+				},
+				{
+					"name": "Broma",
+					"shell_cmd": "make -j4 Broma",
+				},
+				{
+					"name": "Codegen",
+					"shell_cmd": "make -j4 Codegen",
+				},
+				{
+					"name": "Modtober-1",
+					"shell_cmd": "make -j4 Modtober-1",
+				},
+				{
+					"name": "fmt",
+					"shell_cmd": "make -j4 fmt",
+				},
+				{
+					"name": "Users/Shared/Geode/sdk/build/codegenned/Geode/GeneratedSource.o",
+					"shell_cmd": "make -j4 Users/Shared/Geode/sdk/build/codegenned/Geode/GeneratedSource.o",
+				},
+				{
+					"name": "Users/Shared/Geode/sdk/build/codegenned/Geode/GeneratedSource.i",
+					"shell_cmd": "make -j4 Users/Shared/Geode/sdk/build/codegenned/Geode/GeneratedSource.i",
+				},
+				{
+					"name": "Users/Shared/Geode/sdk/build/codegenned/Geode/GeneratedSource.s",
+					"shell_cmd": "make -j4 Users/Shared/Geode/sdk/build/codegenned/Geode/GeneratedSource.s",
+				},
+				{
+					"name": "Users/Shared/Geode/sdk/entry.o",
+					"shell_cmd": "make -j4 Users/Shared/Geode/sdk/entry.o",
+				},
+				{
+					"name": "Users/Shared/Geode/sdk/entry.i",
+					"shell_cmd": "make -j4 Users/Shared/Geode/sdk/entry.i",
+				},
+				{
+					"name": "Users/Shared/Geode/sdk/entry.s",
+					"shell_cmd": "make -j4 Users/Shared/Geode/sdk/entry.s",
+				},
+				{
+					"name": "cmake_pch.hxx.pch",
+					"shell_cmd": "make -j4 cmake_pch.hxx.pch",
+				},
+				{
+					"name": "cmake_pch.hxx.i",
+					"shell_cmd": "make -j4 cmake_pch.hxx.i",
+				},
+				{
+					"name": "cmake_pch.hxx.s",
+					"shell_cmd": "make -j4 cmake_pch.hxx.s",
+				},
+				{
+					"name": "src/MacMouseEvent.o",
+					"shell_cmd": "make -j4 src/MacMouseEvent.o",
+				},
+				{
+					"name": "src/MacMouseEvent.i",
+					"shell_cmd": "make -j4 src/MacMouseEvent.i",
+				},
+				{
+					"name": "src/MacMouseEvent.s",
+					"shell_cmd": "make -j4 src/MacMouseEvent.s",
+				},
+				{
+					"name": "src/MouseManager.o",
+					"shell_cmd": "make -j4 src/MouseManager.o",
+				},
+				{
+					"name": "src/MouseManager.i",
+					"shell_cmd": "make -j4 src/MouseManager.i",
+				},
+				{
+					"name": "src/MouseManager.s",
+					"shell_cmd": "make -j4 src/MouseManager.s",
+				},
+				{
+					"name": "src/main.o",
+					"shell_cmd": "make -j4 src/main.o"
+				},
+				{
+					"name": "src/main.i",
+					"shell_cmd": "make -j4 src/main.i"
+				},
+				{
+					"name": "src/main.s",
+					"shell_cmd": "make -j4 src/main.s"
+				},
+			],
+			"working_dir": "${project_path}/build",
+		},
+	],
+	"folders":
+	[
+		{
+			"path": ".",
+		},
+	],
+	"settings":
+	{
+		"cmake":
+		{
+			"build_folder": "${project_path}/build",
+		},
+	},
+}
