@@ -9,6 +9,7 @@
 #include <Geode/binding/MenuGameLayer.hpp>
 #include <Geode/binding/GJDropDownLayer.hpp>
 
+#include <cmath>
 #include <numbers>
 
 USE_GEODE_NAMESPACE();
