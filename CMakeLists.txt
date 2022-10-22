@@ -32,6 +32,10 @@ add_subdirectory($ENV{GEODE_SDK} $ENV{GEODE_SDK}/build)
 
 target_link_libraries(${PROJECT_NAME} 
     geode-sdk
-    "-framework Foundation"
 )
+if (APPLE)
+    target_link_libraries(${PROJECT_NAME} 
+        "-framework Foundation"
+    )
+endif()
 create_geode_file(${PROJECT_NAME})
